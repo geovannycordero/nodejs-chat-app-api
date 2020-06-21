@@ -7,4 +7,4 @@ router
   .delete('/room/:roomId', deleteController.deleteRoomById)
   .delete('/message/:messageId', deleteController.deleteMessageById)
 
-  module.exports = router
+module.exports = router

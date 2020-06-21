@@ -53,4 +53,4 @@ userSchema.statics.deleteByUserById = async function (id) {
   }
 }
 
-module.exports = mongoose.model("User", userSchema);
+module.exports = mongoose.model("User", userSchema)
